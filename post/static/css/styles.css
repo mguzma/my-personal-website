@@ -1,1 +1,78 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*Header Section styling*/
+header {
+  background-color: #000000;
+  height: 100%;
+  background-size: cover;
+  text-align: center;
+  /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJfiiEdOGr_DwQzIz3cTeqdvkb1NkQBVF1IvC5Vnkz_j9AJSkFfQ);
+  */
+}
+.introLandingPage, h1 {
+  font-family: 'VT323', monospace;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  color: #00cc00;
+}
 
+
+/*AboutMe Section styling*/
+.aboutMeSection {
+  font-family: 'VT323', monospace;
+  padding-top: 5px;
+  text-align: left;
+  font-size: 50px;
+
+  color: #FF533D;
+  background-color: #1D2731;
+}
+.profilePic {
+  text-align: center;
+}
+img {
+    border-radius: 50%;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*My Projects Section styling*/
+.myPortfolioSection {
+  background-color: #0B3C5D;
+  text-align: right;
+}
+
+/*FindMe/Social Media Section styling*/
+.contactMeSection {
+  background-color: #1D2731;
+  text-align: center;
+
+}
+
+.socialMedia {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.socialMedia,li {
+  display: inline;
+  padding: 0px 80px 0px 80px;
+}
+/*footer section styling*/
+footer {
+  background-color: #000000;
+}
+
+#footerNotes {
+  font-family: 'VT323', monospace;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  color: #00cc00;
+}
