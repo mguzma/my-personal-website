@@ -19,7 +19,11 @@ header {
   font-size: 50px;
   color: #00cc00;
 }
-
+/* Section styling */
+section {
+    margin: 0;
+    padding: 0;
+}
 
 /*AboutMe Section styling*/
 .aboutMeSection {
