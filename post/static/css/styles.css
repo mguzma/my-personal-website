@@ -1,85 +1,37 @@
-html,body {
-  height: 100%;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+html, body {
   margin: 0;
   padding: 0;
-}
-/*Header Section styling*/
-header {
-  background-color: #000000;
   height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url('https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2018/04/jonathan-martin-brunate-lead-image_0.jpg');
+  display: table;
+  top: 0;
   background-size: cover;
-  text-align: center;
-  /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJfiiEdOGr_DwQzIz3cTeqdvkb1NkQBVF1IvC5Vnkz_j9AJSkFfQ);
-  */
 }
-
-#main-content {
-    background-color: red;
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
 }
-.introLandingPage, h1 {
-  font-family: 'VT323', monospace;
-  padding-top: 50px;
+.content {
+  max-width: 500px;
+  margin: 0 auto;
   text-align: center;
-  font-size: 50px;
+}
+.content h1 {
+  font-family: 'Raleway', sans-serif;
   color: #00cc00;
-}
-/* Section styling */
-section {
-    margin: 0;
-    padding: 0;
-}
-
-/*AboutMe Section styling*/
-.aboutMeSection {
-  font-family: 'VT323', monospace;
-  padding-top: 5px;
-  text-align: left;
-  font-size: 50px;
-  color: #FF533D;
-  background-color: #1D2731;
-}
-.profilePic {
-  text-align: center;
-}
-img {
-    border-radius: 50%;
-}
-p {
-  margin: 0px;
-  padding: 0px;
-}
-
-/*My Projects Section styling*/
-.myPortfolioSection {
-  background-color: #0B3C5D;
-  text-align: right;
-}
-
-/*FindMe/Social Media Section styling*/
-.contactMeSection {
-  background-color: #1D2731;
-  text-align: center;
-
-}
-
-.socialMedia {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.socialMedia,li {
-  display: inline;
-  padding: 0px 80px 0px 80px;
-}
-/*footer section styling*/
-footer {
-  background-color: #000000;
-}
-
-#footerNotes {
-  font-family: 'VT323', monospace;
-  padding-top: 50px;
-  text-align: center;
-  font-size: 25px;
-  color: #00cc00;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 50%;
 }
